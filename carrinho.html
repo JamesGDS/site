@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Carrinho de Compras</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="cart">
+  <h1>Carrinho de Compras</h1>
+  <div class="items">
+    <!-- Lista de produtos -->
+    <!-- Exemplo para um produto, repita para cada produto -->
+    <div class="item">
+      <img src="produto1.jpg" alt="Produto 1">
+      <div class="item-info">
+        <h2>Produto 1</h2>
+        <p>Preço: R$ 50,00</p>
+        <button class="remove-btn">Remover</button>
+      </div>
+    </div>
+    <!-- Repita para mais 29 produtos -->
+    <!-- Exemplo para o 30º produto -->
+    <div class="item">
+      <img src="produto30.jpg" alt="Produto 30">
+      <div class="item-info">
+        <h2>Produto 30</h2>
+        <p>Preço: R$ 25,00</p>
+        <button class="remove-btn">Remover</button>
+      </div>
+    </div>
+  </div>
+  <div class="total">
+    <p>Total: R$ <span id="total-amount">0.00</span></p>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
